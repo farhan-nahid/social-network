@@ -11,6 +11,7 @@ const Home = () => {
             <Container>
                 <Row>
                     <Col md={3}>
+                        {/* Sidebar */}
                         <Sidebar />
                     </Col>
                     <Col md={9}>
