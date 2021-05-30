@@ -1,36 +1,40 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { createTodo } from "../../Redux/Actions/postAction";
-import TodoItem from "../PostItem/PostItem";
+import React from 'react';
+import './Post.css'
+import PersonIcon from '@material-ui/icons/Person';
+import InputOption from '../InputOption/InputOption';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import ThumbDownAltIcon from '@material-ui/icons/ThumbDownAlt';
+import ShareIcon from '@material-ui/icons/Share';
+import MessageIcon from '@material-ui/icons/Message';
+
+const Post = ({name, description, message, photoUrl }) => {
+    return (
+        <div className="post">
+            <div className="post__header">
+                <PersonIcon/>
+                <div className="post__info">
+                    <h3>Shafikul Islam</h3>
+                    <p style={{color:"grey"}}>Web Developer</p>
+                </div>
+            </div>
+            <div className="post__body">
+                <p>message here Lorem, ipsum dolor sit amet consectetur
+                     adipisicing elit. Nihil in molestias adipisci. Corrupti
+                      reiciendis repellendus dolor deserunt labore officiis non rerum commodi, doloremque soluta dicta repellat autem iusto ipsa quae maiores neque placeat? Repellendus veritatis, sed molestiae ullam harum, magnam magni tempora quia dolore dolorem, aliquid quaerat debitis tempore minima.</p>
+
+            </div>
+            <div className="post__button">
+                {/* <InputOption/> */}
+                <ThumbUpIcon/>
+                <ThumbDownAltIcon/>
+                <ShareIcon/>
+                <MessageIcon/>
 
 
-const Post = (props) => {
-  const toDos = useSelector((state) => state.postReducer);
-  const dispatch = useDispatch();
-  const [value, setValue] = useState("");
-  return (
-    <div>
-      <h1 className="text-center">Add Social Work</h1>
-      <div className="container d-flex justify-content-center mt-5">
-        <input onBlur={(e) => setValue(e.target.value)} type="text" className="form-control w-50" />
-        <button className="btn btn-primary" onClick={() => dispatch(createTodo({ id: Math.round(Math.random() * 500), text: value, }))}>  Post </button>
-      </div>
-      <div className="text-center my-5">
-        {
-          toDos.map((data, i) => (<TodoItem key={i} data={data} />))
-        }
-      </div>
-      <div className="text-center my-5">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE3S3-oP7XRB7OZmo656ReOY930HJT2_Fgg&usqp=CAU" alt="" />
-        <h1> Programmer says...</h1>
-      </div>
-      <div className="text-center my-5">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE3S3-oP7XRB7OZmo656ReOY930HJT2_Fgg&usqp=CAU" alt="" />
-        <h1> Programmer says...</h1>
-      </div>
-    </div>
-  );
+            </div>
+            
+        </div>
+    );
 };
-
 
 export default Post;
