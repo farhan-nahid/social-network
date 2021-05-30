@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "name": "Lionel Messi",
+    "club": "Barcelona F.C.",
+    "salary": 300,
+    "image": "https://i.ibb.co/bzM14bh/p19054-t178-2020-1-002-000.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Cristiano Ronaldo",
+    "club": "Juventus F.C.",
+    "salary": 290,
+    "image": "https://i.ibb.co/tQhSw6w/cristiano-ronaldo-1-billion-earnings-01.jpg"
+  },
+
+  {
+    "id": "4",
+    "name": "Mohamed Salah",
+    "club": "Liverpool F.C",
+    "salary": 180,
+    "image": "https://i.ibb.co/7g62GT4/Atalayar-Mohamed-Salah-jugador-del-Liverpool-4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Diego Maradona",
+    "club": "S.S.C. Napoli",
+    "salary": 500,
+    "image": "https://i.ibb.co/nwBtSDM/8030-E0-C5-8890-4467-AA36-07-CF9-D65-B115.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ronaldinho",
+    "club": "Barcelona F.C.",
+    "salary": 400,
+    "image": "https://i.ibb.co/YfBv157/ronaldinho-barcelona-1slsxexo4gn5z1m0cln77mlj3h.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Mesut Özil",
+    "club": "Fenerbahçe S.K.",
+    "salary": 230,
+    "image": "https://i.ibb.co/3TXN8TJ/ozil-65.jpg"
+  },
+
+  {
+    "id": "8",
+    "name": "Sergio Agüero",
+    "club": "Manchester City",
+    "salary": 150,
+    "image": "https://i.ibb.co/Dz8H4yh/20-AW-PR-TS-Manchester-City-AWAY-Players-Clean-0001-1920-x-1080.jpg"
+  },
+  {
+    "id": "9",
+    "name": " Lewandowski",
+    "club": "Bayern Munich",
+    "salary": 210,
+    "image": "https://i.ibb.co/T10JHRc/Getty-Images-1185982899.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Paulo Dybala",
+    "club": "Juventus F.C.",
+    "salary": 260,
+    "image": "https://i.ibb.co/HVXs9hD/p-Uy-Qv-H09p1.jpg"
+  },
+
+  {
+    "id": "11",
+    "name": "Manuel Neuer",
+    "club": "Bayern Munich",
+    "salary": 300,
+    "image": "https://i.ibb.co/R7XHSM1/download.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Sergio Romero",
+    "club": "Manchester Un.",
+    "salary": 20,
+    "image": "https://i.ibb.co/ng9rrpB/download-1.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Sadio Mané",
+    "club": "Liverpool F.C",
+    "salary": 230,
+    "image": "https://i.ibb.co/867D9hV/mane-2.jpg"
+  }
+]
