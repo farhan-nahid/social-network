@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import NavBar from '../NavBar/NavBar';
 import Post from '../Post/Post';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Home = () => {
     return (
@@ -9,10 +10,10 @@ const Home = () => {
             <NavBar />
             <Container>
                 <Row>
-                    <Col md={3}> 
-                        <h1>SideBar</h1>
+                    <Col md={3}>
+                        <Sidebar />
                     </Col>
-                    <Col md={9}> 
+                    <Col md={9}>
                         <Post />
                     </Col>
                 </Row>
