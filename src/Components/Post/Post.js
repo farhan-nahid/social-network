@@ -10,15 +10,23 @@ const Post = (props) => {
   const [value, setValue] = useState("");
   return (
     <div>
-      <h1 className="text-center">Add Job Post</h1>
+      <h1 className="text-center">Add Social Work</h1>
       <div className="container d-flex justify-content-center mt-5">
-        <input onBlur={(e) => setValue(e.target.value)} type="text" className="form-control w-50"/>
-        <button  className="btn btn-primary"  onClick={() => dispatch( createTodo({ id: Math.round(Math.random() * 500), text: value, }) )}>  Post </button>
+        <input onBlur={(e) => setValue(e.target.value)} type="text" className="form-control w-50" />
+        <button className="btn btn-primary" onClick={() => dispatch(createTodo({ id: Math.round(Math.random() * 500), text: value, }))}>  Post </button>
       </div>
       <div className="text-center my-5">
         {
-          toDos.map((data, i) => (<TodoItem key={i} data={data} /> ))
+          toDos.map((data, i) => (<TodoItem key={i} data={data} />))
         }
+      </div>
+      <div className="text-center my-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE3S3-oP7XRB7OZmo656ReOY930HJT2_Fgg&usqp=CAU" alt="" />
+        <h1> Programmer says...</h1>
+      </div>
+      <div className="text-center my-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQE3S3-oP7XRB7OZmo656ReOY930HJT2_Fgg&usqp=CAU" alt="" />
+        <h1> Programmer says...</h1>
       </div>
     </div>
   );

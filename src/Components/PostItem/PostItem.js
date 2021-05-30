@@ -29,8 +29,9 @@ const PostItem = ({data}) => {
           <input  type="text" defaultValue={text} className="d-block mx-auto my-3" onChange={(e) => handleUpdateValue(e)} />  )
            : (
           <p>{text} </p>
+          
         )}
-        <button className="btn btn-success" onClick={() => handleUpdate()}>{update ? "done" : "update"} </button>
+               <button className="btn btn-success" onClick={() => handleUpdate()}>{update ? "done" : "update"} </button>
         <button  className="btn btn-danger mx-2" onClick={() => dispatch(deleteTodo(id))} > Delete </button>
       </div>
     </div>
