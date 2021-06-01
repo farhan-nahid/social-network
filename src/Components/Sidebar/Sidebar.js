@@ -45,6 +45,7 @@ function Sidebar() {
                 {recentItem("design")}
                 {recentItem("developer")}
                 <br />
+//                     groups
                 <p>Groups</p>
                 {recentItem("Top Talent Community")}
                 {recentItem("programmers")}
